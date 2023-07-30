@@ -1,0 +1,16 @@
+{
+    "testnets":{
+        "mumbai": {"chainId":"0x13881", "img": "./polygon.png"},
+        "mantle": {"chainId":"0x1389", "img": "./mantle.svg"},
+        "goerli": {"chainId":"0x5", "img": "./ethereum.png"},
+        "bsc": {"chainId":"0x61", "img": "./binance.png"},
+        "arbitrumGoerli": {"chainId":"0x66eed", "img": "./arbitrum.png"}
+    },
+    "mainnets": {
+        "polygonPOS": {"chainId":"0x89", "img": "./polygon.png"},
+        "mantle": {"chainId":"0x1388", "img": "./mantle.svg", "rpc": ["https://rpc.mantle.xyz", "https://mantle.publicnode.com"]},
+        "ethereum": {"chainId":"0x1", "img": "./ethereum.png"},
+        "bsc": {"chainId":"0x38", "img": "./binance.png"},
+        "arbitrum": {"chainId":"0xa4b1", "img": "./arbitrum.png"}
+    }
+}
